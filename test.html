@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Ferrari - Creatrive / Corporate / Single Page Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Corporate , Corporate portfolio template, Corporate portfolio, landing page, single page, Business, Bootstrap, HTML , CSS , One page">
+        <meta name="author" content="codeshaper.net">
+        <title>Ferrari - Creatrive / Corporate / Single Page Template</title>
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
+      
+        <!-- font famil CSS
+            ============================================ -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <!-- Bootstrap CSS
+            ============================================ -->
+        <!--=== Bootstrap 4 ===-->
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Icon Font CSS
+            ============================================ -->
+        <!-- <link rel="stylesheet" href="assets/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      
+        <!-- owl carrosel css
+            ============================================ -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" integrity="sha512-WEQNv9d3+sqyHjrqUZobDhFARZDko2wpWdfcpv44lsypsSuMO0kHGd3MQ8rrsBn/Qa39VojphdU6CMkpJUmDVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Style CSS
+            ============================================ -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    </head>
+    <body>
+
+    
+<style>
+.hidden {
+  display: none;
+}
+</style>
+
+
+
+<a href="#MAY" class="btn" id="button-may">MAY</a>
+<a href="#JUNE" class="btn" id="button-june">JUNE</a>
+<a href="#aug" class="btn" id="button-aug">Augest</a>
+<!-- first div, shows on page load -->
+<div id="MAY" class="month">
+  <div style="background-color: lightgrey">
+    <h1 style="padding: 5px"><strong>May 2017</strong></h1>
+  </div>
+</div>
+<!-- second div, hidden originally -->
+<div class="month hidden" id="JUNE">
+  <div style="background-color: lightgrey">
+    <h1 style="padding: 5px"><strong>June 2017</strong></h1>
+  </div>
+</div>
+<div class="month hidden" id="aug">
+  <div style="background-color: lightgrey">
+    <h1 style="padding: 5px"><strong>aug 2018</strong></h1>
+  </div>
+</div>
+
+
+   <!--=== All Plugin ===-->
+   <!--============= Jquery-3.6.0 =============-->
+   <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+      </script>
+
+   <!--=== Bootstrap4 js ===-->
+   <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+      <!--=== isotope ===-->
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+         <!--=== magnific-popup ===-->
+   <script type="text/javascript" src="assets/js/magnific-popup.min.js"></script>
+   <!--=== owl carousel ===-->
+   <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+
+   <!-- <script src="assets/js/imagesloaded.pkgd.min.js"></script> -->
+
+   <!--=== owl carousel ===-->
+
+   <!--=== Main js ===-->
+   <script type="text/javascript" src="assets/js/main.js"></script>
+        <script>
+$("a.btn").click(function() {
+  var id = $(this).attr("href");
+  $("div.month:visible").hide();
+  $(id).show();
+});
+
+        </script>
+    </body>
+</html>

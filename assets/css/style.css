@@ -1,0 +1,851 @@
+/*
+==========================================
+   01. Header CSS
+==========================================
+*/
+
+/* --- header-top css start --- */
+
+.header-top {
+    background: var(--green);
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.header-top p, .header-top a {
+    color: var(--white);
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header-top .help-number a {
+    padding-left: 20px;
+}
+
+.header-top .download-app>a {
+    text-decoration: underline;
+    margin-right: 25px;
+}
+
+.header-top .download-app .h-socail a {
+    margin-right: 17px;
+}
+
+.header-top .download-app .h-socail a:last-child {
+    margin-right: 0px;
+}
+
+/* --- header-top css end --- */
+
+/* --- header-nav css start --- */
+
+.header-nav .navbar-brand {
+    padding: 0px;
+}
+
+.header-nav .ftco-navbar-light {
+    background: #fff;
+    z-index: 3;
+    box-shadow: 0 5px 20px -17px rgb(0 0 0 / 34%);
+    border: 1px solid #e7e7e7;
+    padding: 13px 0px;
+}
+
+.header-nav .navbar-expand-lg>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header-nav .navbar-toggler {
+    padding: .25rem 0rem;
+}
+
+.header-nav .navbar-expand-lg .navbar-nav .nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
+    padding: 0px;
+    padding-right: 35px;
+}
+
+/*
+==========================================
+   02. Bnnaer CSS
+==========================================
+*/
+
+.banner {
+    padding-top: 2%;
+    padding-bottom: 8%;
+}
+
+.banner.green-overly:after {
+    width: 60%;
+}
+
+.banner .banner-title .sub-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #030303;
+}
+
+.banner-carousel.owl-carousel .owl-dots .owl-dot.active span, .banner-carousel.owl-carousel .owl-dots .owl-dot:hover span {
+    background: #070707;
+}
+
+.banner-carousel.owl-carousel .owl-dots .owl-dot span {
+    width: 30px;
+    height: 7px;
+    margin: 5px 5px;
+    background: #E0E0E0;
+    display: inline-block;
+    transition: opacity .2s ease;
+    border-radius: 7px;
+    border: none;
+}
+
+.banner-carousel .owl-dots {
+    display: inline-block;
+    position: absolute;
+    right: 30%;
+}
+
+.banner-title .sub-title {
+    font-size: 27px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.banner-content p {
+    line-height: 23px;
+    padding: 20px 20px 25px 0px;
+}
+
+/* --- header-nav css start --- */
+
+/*
+==========================================
+   03. Our-Services CSS
+==========================================
+*/
+
+.our-services {
+    position: relative;
+    z-index: 1;
+}
+
+/* --- appointment css start --- */
+
+.appointments {
+    gap: 20px;
+    align-items: center;
+}
+
+.appointment-wrapper {
+    padding: 25px 20px;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+}
+
+.appointments select.form-control, .appointments .date .form-control, .appointments .time .form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* background: url(../img/arrow-bottom.png) no-repeat right calc(100% - 20px) !important; */
+    background: url(../img/arrow-bottom.png) no-repeat calc(100% - 15px) !important;
+    transition: .3s ease all;
+    position: relative;
+}
+
+.appointments .date .form-control {
+    background: url(../img/calendar.png) no-repeat calc(100% - 15px) !important;
+}
+
+.appointments .form-control, .appointments .form-control::placeholder {
+    color: var(--green);
+}
+
+.appointments .appoint-now {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+/* .appointments .appoint-now:last-child {
+    grid-template-columns: 2fr 1fr;
+    gap: 7.5px;
+} */
+
+.appointments .appoint-now input[type="date"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* --- appointment css end --- */
+
+/* --- services css start --- */
+
+.our-services .sm-none {
+    display: none;
+}
+
+.single-service {
+    position: relative;
+    overflow: hidden;
+    /* transition: .2s all linear; */
+    /* border-bottom: 4px solid var(--white); */
+    border-radius: 8px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    background: var(--white);
+    padding: 20px 20px 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.single-service .sub-title {
+    margin: 5px 0px 18px;
+}
+
+.single-service .serivce-img {
+    display: inline-block;
+}
+
+/* .single-service:hover,
+.single-service.active{
+    border-bottom: 4px solid var(--green);
+} */
+
+.single-service:hover, .single-service.active {
+    box-shadow: 0px 7px 1px var(--green);
+}
+
+/* --- services css end --- */
+
+/*
+==========================================
+   03. Our-Services CSS
+==========================================
+*/
+
+/* --- find-nearest tab css start --- */
+
+.find-header-tab .nav-link {
+    border: none;
+    background-color: #E5E7E9;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    border-radius: .25rem;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: var(--blue);
+}
+
+.find-header-tab .nav-link.active {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.find-header-tab .nav-tabs .nav-item.show .nav-link,
+.find-header-tab .nav-tabs .nav-link.active, 
+.find-header-tab.nav-tabs {
+    border: none;
+}
+
+.find-header-tab .nav-item {
+    width: 33%;
+    padding: 0 20px 0px 0;
+    min-width: 100px;
+    margin-bottom: 0;
+}
+
+.find-header-tab .nav-link.active:before {
+    color: #fff;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid var(--blue);
+    position: absolute;
+    bottom: -12px;
+    left: -1px;
+    border-radius: .25rem;
+}
+
+/* --- find-nearest tab css end --- */
+
+/* --- find-tab-content css end --- */
+
+.find-tab-content .doctor {
+    background: url(../img/find-bg.png) no-repeat center center;
+    height: 630px;
+    max-height: 630px;
+}
+
+.find-tab-content .inner-form,
+.dc-form .inner-form{
+    background: rgb(255 255 255 / 53%);
+    border-radius: 50px;
+    padding: 15px;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.find-tab-content .inner-form .input-field.third-wrap,
+.dc-form.inner-form .input-field.third-wrap {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.find-tab-content .inner-form .input-field, 
+.dc-form .inner-form .input-field {
+    position: relative;
+    border-right: 1px solid #ddd;
+    background: #fff;
+}
+
+
+
+.find-tab-content .inner-form .search-input, 
+.dc-form  .inner-form .search-input, 
+.find-tab-content .inner-form .search-input , 
+.dc-form  .inner-form .search-input, 
+.find-tab-content .inner-form .search-input,
+.dc-form  .inner-form .custom-btn.blue-btn.search-input {
+    height: 48px;
+    border-radius: 50px;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 15px 10px 25px;
+    font-size: 20px;
+    color: #555;
+    font-weight: 600;
+    position: relative;
+}
+
+.find-tab-content .inner-form .input-field button.custom-btn.blue-btn,
+.dc-form .inner-form .input-field button.custom-btn.blue-btn
+ {
+    margin: -7px;
+    color: white;
+    border: 1px solid var(--blue);
+    margin-right: -4px;
+}
+
+.find-tab-content .inner-form .form-control.search-input,
+.dc-form .inner-form .form-control.search-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    background: url(../img/category-d.png) no-repeat calc(100% - 100px) !important;
+}
+
+.find-tab-content .input-field.first-wrap,
+.dc-form  .input-field.first-wrap {
+    border-radius: 50px 0px 0px 50px;
+}
+
+.find-tab-content .input-field.third-wrap,
+.dc-form .input-field.third-wrap {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.find-tab-content .input-field.third-wrap,
+.dc-form  .input-field.third-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.doctor .section-top .section-heading, .doctor .section-top p {
+    color: var(--white);
+}
+
+.triage-search input[type="text"] {
+    height: 36px;
+}
+
+.triage-search button.custom-btn.blue-btn {
+    height: 36px;
+}
+
+.triage-search input.form-control {
+    /* background: transparent; */
+    border: none;
+    border-radius: 50px;
+}
+
+.triage-search input.form-control:focus {
+    border: none;
+}
+
+.triage-search .input-field {
+    position: relative;
+    background: #fff;
+    border-radius: 50px;
+    border: 1px solid var(--green);
+}
+#triages .triage {
+    position: relative;
+    padding: 21px 0px;
+}
+
+#triages .green-overly:after {
+    content: "";
+    left: 40%;
+    right: 0%;
+    top: 20%;
+    width: 50%;
+    height: 60%;
+}
+
+/* hospital */
+
+.hospital {
+    padding: 50px 0px;
+}
+
+#hospitals .green-overly:after {
+    content: "";
+    left: 39%;
+    right: auto;
+    width: 61%;
+}
+
+.hospital .section-heading {
+    font-size: 25px;
+}
+
+.hospital .find-n-h p {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hospital [class*="col-md-4"]:last-child {
+    padding-right: 0px;
+}
+
+.hospital .find-n-h ul {
+    padding: 15px 60px 20px 0px;
+}
+
+.hospital .find-n-h ul li {
+    border-radius: 25px;
+    margin: 10px 0px;
+    padding: 8px;
+}
+
+.hospital .find-n-h ul li a {
+    padding-left: 20px;
+    display: block;
+    font-weight: 600;
+    transition: .1s;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+    font-size: 25px;
+}
+
+.hospital .find-n-h ul li:hover {
+    background: #fff;
+    box-shadow: 3px 4px 4px 5px #f5f3f3;
+}
+
+.hospital ul li.active {
+    box-shadow: 3px 2px 4px 2px #f5f3f3;
+    color: var(--green);
+}
+
+.hospital .find-n-h ul li a span {
+    padding-left: 13px;
+}
+
+.find-nearest-carousel.owl-carousel .owl-item img {
+    display: inline-block;
+    max-width: 100% !important;
+    width: auto;
+}
+
+/* --- find-tab-content tab css end --- */
+
+/* --- write-us  css start --- */
+
+.write-us {
+    background: url(../img/write-bg.png) no-repeat center center;
+    height: 430px;
+    min-height: 430px;
+}
+
+.write-form {
+    background: var(--blue);
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.write-form form {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.write-form form .form-control {
+    border: none;
+}
+
+/* --- write-us css end --- */
+
+/* --- about-wha css start --- */
+
+.about-wha .banner-content p {
+    font-family: 'Segoe UI Regular';
+}
+
+.about-wha {
+    padding: 50px 0px;
+}
+
+/* --- about-wha css end --- */
+
+/* --- our-blog css start --- */
+
+/* feature-area */
+.our-blog.bg {
+    position: relative;
+}
+
+.our-blog {
+    background: url(../img/blog-bg.png) no-repeat center center;
+    height: 630px;
+    min-height: 630px;
+}
+
+.our-b-h .section-heading {
+    color: #263238;
+}
+
+.our-blog .our-b-h .section-heading.heading-bar:before {
+    background: var(--blue);
+}
+
+.our-blog .feature-wrapper p {
+    color: #989898;
+}
+
+/* .our-blog .feature-area [class^="col-xl-3"] {
+    padding: 0px 5px;
+} */
+
+.our-blog .feature-wrapper {
+    background: #fff;
+    /* border: 1px solid #E2E2E2; */
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.our-blog .feature-img {
+    order: -1;
+    margin-top: -50px;
+}
+
+.our-blog .feature-items {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.our-blog .blog-carousel {
+    position: relative;
+}
+
+.our-blog .sub-title {
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.our-blog .feature-wrapper .custom-btn {
+    width: 180px;
+    background: var(--blue);
+    margin-top: 15px;
+}
+.our-blog .feature-wrapper .custom-btn i{
+    padding-left: 15px;
+}
+.our-blog .feature-img {
+    display: inline-block;
+}
+/* --- our-blog css end --- */
+
+/* --- faq css start --- */
+.faq {
+    padding: 50px 0px;
+}
+.faq i.fas.fa-chevron-down {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+}
+.faq button.btn.btn-link.btn-block.text-left.collapsed i.fas.fa-chevron-down{
+    transform: rotate(180deg);
+}
+.faq button.btn.btn-link {
+    font-weight: 600;
+    font-size: 20px;
+    color:#263238;
+    text-decoration: none;
+}
+ .faq button.btn.btn-link:hover,
+ .faq button.btn.btn-link.active{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--green);
+    text-decoration: none;
+}
+.faq button.btn.btn-link.collapsed{
+  
+    color:#263238;
+} 
+
+.faq button{
+    padding-left: 0px;
+}
+.faq .card-header {
+    padding: 0.75rem 1.25rem;
+    background-color:transparent;
+    border-bottom: none;
+}
+.faq  .card-body {
+    padding: 1.25rem;
+    padding-top: 0px;
+}
+/* --- faqcss end --- */
+
+
+/*
+==========================================
+  08. Gallary Css
+==========================================
+*/
+
+.gallery {
+    position: relative;
+}
+/* .our-blog.bg {
+    position: relative;
+} */
+
+/* clear fix */
+.gallery .grid:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .gallery .grid .col-md-3{
+      padding-right: 0px;
+      padding-bottom: 15px;
+  }
+
+  .portfolio-area .button-group{
+      padding: 40px 0px 25px;
+  }
+  
+.portfolio-area  .grid .portfolio img
+{ 
+  width: 100%;
+  display: inline-block;
+}
+.portfolio-area button{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F3F3;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 30px;
+    max-width: 180px;
+    width: 180px;
+    text-align: center;
+    padding: 10px 20px;
+    color: #263238;
+}
+.portfolio-area  .button.is-checked, .portfolio-area  .button.is-selected {
+    background-color: #016939;
+    color: white;
+}
+.gallery-m .mfp-figure figure {
+
+    background: #fff;
+    padding: 15px;
+}
+.gallery-m .mfp-title {
+  
+    color: #100000;
+    padding-left: 15px;
+}
+.gallery-m .mfp-image-holder .mfp-close {
+    right: 10px;
+    color: #100000;
+}
+.portfolio-area img.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px !important;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-bottom: 0px !important;
+}
+
+
+
+
+/*
+==========================================
+  09. live-update Css
+==========================================
+*/
+.live-update{
+    padding: 70px 0px;
+}
+
+
+/*
+==========================================
+  10. footer Css
+==========================================
+*/
+.footer-area {
+    background:var(--light-green);
+  }
+  
+  footer p,
+  footer a {
+    color: #263238;
+    font-size: 14px;
+    padding-bottom: 5px;
+  }
+  
+ .footer-area .address-bd>div>a {
+    flex-basis: 20px;
+    margin-right: 5px;
+  }
+ .footer-area .social-icon{
+    display: flex;
+  }
+ .footer-area .social-icon a {
+    background: #263238;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 0px;
+  }
+  
+ .footer-area .social-icon a:last-child {
+    margin-right: 0px;
+  
+  }
+  
+ .footer-area .g-1fr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+ footer .copyright {
+    background:var(--green);
+    padding: 15px 0px;
+  }
+    
+ footer .copyright p{
+    color: #fff;
+  }
+
+
+/* --- doctor-details css start --- */
+/*
+==========================================
+  11. find-dc & hospital Css
+==========================================
+*/
+
+.find-dc .dc-form .inner-form {
+    background: rgb(46 56 136 / 53%);
+}
+.find-dc .pattern {
+    right: 0px;
+    top: inherit;
+    bottom: 0px;
+}
+/* specialist Css */
+.specialist .single-service {
+    padding: 0px;
+    border-radius: 0px;
+    text-align:inherit;
+}
+.specialist .specialist-content {
+    padding: 15px;
+}
+
+/*
+==========================================
+  12. hospital-profile Css
+==========================================
+*/
+.specialist .single-service {
+    padding: 0px;
+    border-radius: 0px;
+    text-align:inherit;
+}
+.specialist .specialist-content {
+    padding: 15px;
+}
+.specialist .single-service .serivce-img {
+    display: block;
+}
+.specialist .single-service .serivce-img img{
+    width: 100%;
+}
+/* .specialist .single-service {
+    padding: 20px 20px 30px;
+} */
+/*
+==========================================
+  13. hospital-profile Css
+==========================================
+*/
+
+/* --- doctor-details css end --- */
+
+/* --- Doctor-details css start --- */
+/*
+==========================================
+  11. footer Css
+==========================================
+*/
+
+/* --- Doctor-details css end --- */
+
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+

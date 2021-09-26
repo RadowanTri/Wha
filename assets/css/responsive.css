@@ -1,0 +1,344 @@
+
+
+/* Laptop */
+@media (min-width: 1368px) {
+    .banner-content .custom-btn{
+        max-width: 242px;
+        width: 242px;
+        height: 44px;
+    }
+    .banner-carousel .owl-dots {
+        margin-top: 20px;
+    }
+    .appointment-wrapper button.custom-btn,
+    .write-form form button.custom-btn { 
+        max-width: 190px;
+        width: 190px;
+        height: 44px;
+    }
+
+    .appointments .appoint-now:last-child {
+        grid-template-columns: 2fr 1fr;
+        gap: 7.5px;
+    }
+    .appointment-wrapper {
+        margin-top: -60px;
+    }
+    .appointments .flex-1 {
+        border-left: 1px solid var(--green);
+        padding-left: 20px;
+    }
+    
+}
+/* Laptop */
+@media (min-width: 992px) and (max-width:1368px) {
+
+}
+
+/* large */
+@media (min-width: 768px) and (max-width:991px) {
+    /* :default start */
+    .section-heading {
+        font-size: 30px;
+    }
+
+    /* :default end */
+
+    /*  banner css start */
+    .banner {
+        padding-bottom: 5%;
+    }
+    .banner-carousel .owl-dots {
+        margin-top: 0px;
+    }
+    .banner-title .sub-title {
+        font-size: 20px;
+    }
+    /*  banner css end */
+
+    /*  our-services css start */
+    /*  our-services css end */
+    /*  find-near css start */
+    .doctor .container-fliuid {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .find-tab-content .inner-form .form-control.search-input,
+    .dc-form  .inner-form .form-control.search-input {
+        background: url(../img/category-d.png) no-repeat calc(100% - 20px) !important;
+    }
+   .doctor .input-field.first-wrap,
+   .dc-form  .input-field.first-wrap,
+   .dc-form  .input-field.second-wrap,
+   .doctor .input-field.second-wrap {
+        width: 25%;
+    }
+    .find-header-tab .nav-link {
+        font-size: 12px;
+    }
+    /* find-near css end */
+
+     /*  our-services css start */
+    /*  our-services css end */
+}
+/* medium */
+@media (min-width: 320px) and (max-width:767px) {
+    /* :default start */
+    .section-heading {
+        font-size: 25px;
+    }
+    /* :default end */
+
+    /* --- header css start --- */
+    .header-nav .navbar-expand-lg .navbar-nav .nav-link{
+        padding:8px 0px;
+        padding-right: 0px;
+    }
+    /* --- header css end --- */
+
+    /*  banner css start */
+    .banner {
+        padding-top: 3%;
+    }
+    .banner-carousel .owl-dots {
+        margin-top: 0px;
+        left: 50%;
+        right: auto;
+        transform: translate(-50%, -50%);
+    }
+    /*  banner css end */
+
+    /*  our-services css start */
+    .appointments .flex-1{
+        border-left: none;
+        padding-left: 0px;
+    }
+    
+    .appointments .appoint-now {
+        grid-template-columns: 1fr;
+        margin-bottom: 10px;
+    }
+    
+    
+    /*  our-services css end */
+    /*  our-services css start */
+  
+    /*  find-near css start */
+    .find-tab-content{
+        padding: 2px;
+    }
+    .doctor .input-field.first-wrap,
+    .dc-form  .input-field.first-wrap,
+    .dc-form .input-field.second-wrap,
+    .doctor .input-field.second-wrap {
+        width: 25%;
+    }
+    .find-tab-content .inner-form .search-input, 
+    .dc-form  .inner-form .search-input, 
+    .find-tab-content .inner-form .search-input , 
+    .dc-form  .inner-form .search-input, 
+    .find-tab-content .inner-form .search-input,
+    .dc-form  .inner-form .custom-btn.blue-btn.search-input  {
+        height: 40px;
+        padding: 8px 8px 8px 8px;
+        font-size: 10px;
+    }
+    .find-header-tab .nav-link {
+        font-size: 12px;
+        padding: 0.5rem 5px;
+    }
+    .find-header-tab .nav-item:last-child {
+        padding: 0 10px 0px 0;
+        padding-right: 0px;
+    }
+    .find-tab-content .inner-form .form-control.search-input,
+    .dc-form  .inner-form .form-control.search-input {
+        background: url(../img/category-d.png) no-repeat calc(100% - 20px) !important;
+    }
+    .find-tab-content .doctor {
+        height: 350px;
+        max-height:400px;
+    }
+    .find-tab-content .inner-form {
+        padding: 10px;
+    }
+    .hospital .find-n-h ul li a {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .hospital .find-n-h ul li a span{
+        padding-left: 10px;
+    }
+    .triage-search input[type="text"] {
+        height: 32px;
+    }
+    #hospitals .green-overly:after {
+        content: "";
+        left: 0;
+        right: auto;
+        width: 100%;
+        top: 40%;
+    }
+    #triages .green-overly:after {
+        content: "";
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+    }
+     /*  find-near css end */
+
+     /*  our-blog css start */
+     .our-blog {
+        height: auto;
+        min-height: auto;
+    }
+    /*  our-blog css end */
+
+    /*  Live Update */
+    .live-update .banner-left-content{
+        margin-top: 20px;
+    }
+    .live-update .nav {
+        display: inline-block;
+    }
+    .live-update .all-header-tab .nav-link {
+        font-size: 20px;
+        margin-right: 15px;
+    }
+    .live-update .tabs-section{
+        padding-bottom: 30px;
+    }
+
+
+    /* gallery css start */
+    .portfolio-area button {
+        font-weight: 600;
+        font-size: 20px;
+        margin-right: 16px;
+        width: auto;
+        padding: 5px 15px;
+    }
+    /* gallery css end */
+
+    /*  our-services css start */
+    /*  our-services css end */
+
+}
+
+@media (min-width: 320px) and (max-width:575px) {
+    /* :default start */
+    .home-wha p{
+        font-size: 10px;
+    }
+    .section-heading {
+        font-size: 20px;
+    }
+    .custom-btn {
+        padding: 8px 20px;
+        font-weight: 400;
+        font-size: 11px;
+    }
+    /* :default end */
+    
+    /* --- header css start --- */
+    .header-nav .ftco-navbar-light {
+        padding: 5px 0px;
+    }
+    
+    .header-top p, .header-top a {
+        font-size: 8px;
+    }
+    .header-nav .navbar-brand {
+        padding: 0px;
+        max-width: 80px;
+    }
+
+    /* --- header css end --- */
+
+    /*  banner css start */
+    .banner.green-overly:after {
+        width: 100%;
+        height: 40%;
+    }
+    .banner-title .sub-title{
+        font-size: 18px;
+    }
+    .banner-content p {
+        line-height: 11px;
+        font-size: 10px;
+        padding: 15px 20px 20px  0px;
+    }
+    .banner-right-img {
+        margin-top: -20px;
+    }
+    .banner-carousel.owl-carousel .owl-dots .owl-dot span {
+        height: 3px;
+    }
+    /*  banner css end */
+
+    /*  our-services css start */
+    .our-services .sm-none {
+        display: block;
+    }
+    .service-content p {
+        font-size: 13px;
+    }
+    /*  our-services css end */
+
+    /*  find-near css start */
+    .find-header-tab .nav-link {
+        font-size: 9px;
+        padding: 0.5rem 5px;
+    }
+    .find-header-tab .nav-item {
+        padding: 0 10px 0px 0;
+    }
+    .find-tab-content .inner-form .search-input, 
+    .dc-form  .inner-form .search-input, 
+    .find-tab-content .inner-form .search-input , 
+    .dc-form  .inner-form .search-input, 
+    .find-tab-content .inner-form .search-input,
+    .dc-form  .inner-form .custom-btn.blue-btn.search-input  {
+        height: 30px;
+        padding: 7px 5px 6px 7px;
+        font-size: 9px;
+    }
+    .find-tab-content .inner-form,
+    .dc-form  .inner-form {
+        padding: 9px;
+    }
+    .find-tab-content .inner-form .form-control.search-input,
+    .dc-form  .inner-form .form-control.search-input {
+        background: url(../img/category-d.png) no-repeat calc(100% - 15px) !important;
+    }
+
+    
+    /*  our-services css end */
+
+
+    /* nearest-dh css start */
+    .nearest-dh .find-header-tab .nav-item {
+        width: 100%;
+    }
+    .nearest-dh .find-header-tab .nav-item  .nav-link{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .nearest-dh .find-header-tab .nav-item  .nav-link.active:before {
+        display: none;
+    }
+
+
+    
+    /*  nearest-dhs css end */
+
+    /* hospital-profile Css start */
+    
+    /* hospital-profile Css end */
+    
+}
+    
+    /*  our-services css start */
+    /*  our-services css end */
