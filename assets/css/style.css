@@ -1964,7 +1964,7 @@ footer .copyright p {
     width: 180px;
 }
 
-.professional-doctors-area {
+.doctors-list-area {
     background-image: url(../img/doctors-bg-1.png);
     background-position: center center;
     background-size: cover;
@@ -1974,26 +1974,26 @@ footer .copyright p {
     overflow: hidden
 }
 
-.professional-doctors-area .owl-carousel {
+.doctors-list-area .owl-carousel {
     display: inline-block;
     width: 100%;
     z-index: 1;
 }
 
-.professional-doctors-area .section-title h2 {
+.doctors-list-area .section-title h2 {
     margin-bottom: 0;
     font-size: 35px;
     line-height: 1.4;
     color: #07003b;
 }
 
-.professional-doctors-area .section-title {
+.doctors-list-area .section-title {
     text-align: center;
     max-width: 650px;
     margin: 0 auto 45px;
 }
 
-.professional-doctors-card {
+.doctors-card {
     background-color: #fff;
     -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
     box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
@@ -2001,7 +2001,7 @@ footer .copyright p {
     margin-bottom: 25px
 }
 
-.professional-doctors-card .doctors-image {
+.doctors-card .doctors-image {
     text-align: center;
     background: linear-gradient(to right, #d6f9f9, #daf5f5, #def2f2, #e2eeee, #e5eaea);
     padding-top: 40px;
@@ -2011,11 +2011,11 @@ footer .copyright p {
     position: relative
 }
 
-.professional-doctors-card .doctors-image a img {
+.doctors-card .doctors-image a img {
     display: inline-block
 }
 
-.professional-doctors-card .doctors-image .social {
+.doctors-card .doctors-image .social {
     padding-left: 0;
     list-style-type: none;
     position: absolute;
@@ -2025,7 +2025,7 @@ footer .copyright p {
     margin-bottom: 0
 }
 
-.professional-doctors-card .doctors-image .social li {
+.doctors-card .doctors-image .social li {
     display: inline-block;
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
@@ -2036,14 +2036,14 @@ footer .copyright p {
     margin: 0 2px
 }
 
-.professional-doctors-card:hover .doctors-image .social li {
+.doctors-card:hover .doctors-image .social li {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
     visibility: visible
 }
 
-.professional-doctors-card .doctors-image .social li a i {
+.doctors-card .doctors-image .social li a i {
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -2060,34 +2060,34 @@ footer .copyright p {
     transition: .6s
 }
 
-.professional-doctors-card .doctors-image .social li a i:hover {
+.doctors-card .doctors-image .social li a i:hover {
     color: #fff;
     background-color: #169fed;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px)
 }
 
-.professional-doctors-card .doctors-image .social li:nth-child(1) {
+.doctors-card .doctors-image .social li:nth-child(1) {
     -webkit-transition-delay: .1s;
     transition-delay: .1s
 }
 
-.professional-doctors-card .doctors-image .social li:nth-child(2) {
+.doctors-card .doctors-image .social li:nth-child(2) {
     -webkit-transition-delay: .2s;
     transition-delay: .2s
 }
 
-.professional-doctors-card .doctors-image .social li:nth-child(3) {
+.doctors-card .doctors-image .social li:nth-child(3) {
     -webkit-transition-delay: .3s;
     transition-delay: .3s
 }
 
-.professional-doctors-card .doctors-image .social li:nth-child(4) {
+.doctors-card .doctors-image .social li:nth-child(4) {
     -webkit-transition-delay: .4s;
     transition-delay: .4s
 }
 
-.professional-doctors-card .doctors-content {
+.doctors-card .doctors-content {
     background-color: #fff;
     -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
     box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
@@ -2096,31 +2096,31 @@ footer .copyright p {
     border-radius: 0 0 10px 10px
 }
 
-.professional-doctors-card .doctors-content span {
+.doctors-card .doctors-content span {
     display: inline-block;
     margin-bottom: 12px
 }
 
-.professional-doctors-card .doctors-content h3 {
+.doctors-card .doctors-content h3 {
     font-size: 24px;
     margin-bottom: 0;
     font-weight: 600
 }
 
-.professional-doctors-card .doctors-content h3 a {
+.doctors-card .doctors-content h3 a {
     color: #07003b;
 }
 
-.professional-doctors-card .doctors-content h3 a:hover {
+.doctors-card .doctors-content h3 a:hover {
     color: #169fed;
 }
 
-.professional-doctors-slides.owl-theme .owl-dots .owl-dot {
+.doctors-slides.owl-theme .owl-dots .owl-dot {
     -webkit-transition: .6s;
     transition: .6s
 }
 
-.professional-doctors-slides.owl-theme .owl-dots .owl-dot span {
+.doctors-slides.owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
     margin: 0 5px;
@@ -2137,18 +2137,18 @@ footer .copyright p {
     border: none;
 }
 
-.professional-doctors-slides.owl-carousel .owl-dots .owl-dot:hover span,
-.professional-doctors-slides.owl-carousel .owl-dots .owl-dot.active span {
+.doctors-slides.owl-carousel .owl-dots .owl-dot:hover span,
+.doctors-slides.owl-carousel .owl-dots .owl-dot.active span {
     background-color: #169fed !important;
     width: 30px
 }
 
-.professional-doctors-slides.owl-carousel .owl-dots .owl-dot:hover span::before,
-.professional-doctors-slides.owl-carousel .owl-dots .owl-dot.active span::before {
+.doctors-slides.owl-carousel .owl-dots .owl-dot:hover span::before,
+.doctors-slides.owl-carousel .owl-dots .owl-dot.active span::before {
     opacity: 1;
     visibility: visible
 }
 
-.professional-doctors-slides.owl-carousel .owl-nav.disabled+.owl-dots {
+.doctors-slides.owl-carousel .owl-nav.disabled+.owl-dots {
     margin-top: 0
 }
