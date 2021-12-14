@@ -4,6 +4,7 @@
 ==========================================
 */
 
+
 /* --- header-top css start --- */
 
 .header-top {
@@ -12,7 +13,8 @@
     text-align: center;
 }
 
-.header-top p, .header-top a {
+.header-top p,
+.header-top a {
     color: var(--white);
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
@@ -36,7 +38,9 @@
     margin-right: 0px;
 }
 
+
 /* --- header-top css end --- */
+
 
 /* --- header-nav css start --- */
 
@@ -70,6 +74,7 @@
     padding-right: 35px;
 }
 
+
 /*
 ==========================================
    02. Bnnaer CSS
@@ -92,7 +97,8 @@
     color: #030303;
 }
 
-.banner-carousel.owl-carousel .owl-dots .owl-dot.active span, .banner-carousel.owl-carousel .owl-dots .owl-dot:hover span {
+.banner-carousel.owl-carousel .owl-dots .owl-dot.active span,
+.banner-carousel.owl-carousel .owl-dots .owl-dot:hover span {
     background: #070707;
 }
 
@@ -124,7 +130,9 @@
     padding: 20px 20px 25px 0px;
 }
 
+
 /* --- header-nav css start --- */
+
 
 /*
 ==========================================
@@ -136,6 +144,7 @@
     position: relative;
     z-index: 1;
 }
+
 
 /* --- appointment css start --- */
 
@@ -151,7 +160,9 @@
     position: relative;
 }
 
-.appointments select.form-control, .appointments .date .form-control, .appointments .time .form-control {
+.appointments select.form-control,
+.appointments .date .form-control,
+.appointments .time .form-control {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -165,7 +176,8 @@
     background: url(../img/calendar.png) no-repeat calc(100% - 15px) !important;
 }
 
-.appointments .form-control, .appointments .form-control::placeholder {
+.appointments .form-control,
+.appointments .form-control::placeholder {
     color: var(--green);
 }
 
@@ -173,6 +185,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 10px;
 }
+
 
 /* .appointments .appoint-now:last-child {
     grid-template-columns: 2fr 1fr;
@@ -184,7 +197,9 @@
     appearance: none;
 }
 
+
 /* --- appointment css end --- */
+
 
 /* --- services css start --- */
 
@@ -213,22 +228,27 @@
     display: inline-block;
 }
 
+
 /* .single-service:hover,
 .single-service.active{
     border-bottom: 4px solid var(--green);
 } */
 
-.single-service:hover, .single-service.active {
+.single-service:hover,
+.single-service.active {
     box-shadow: 0px 7px 1px var(--green);
 }
 
+
 /* --- services css end --- */
+
 
 /*
 ==========================================
    03. Our-Services CSS
 ==========================================
 */
+
 
 /* --- find-nearest tab css start --- */
 
@@ -254,7 +274,7 @@
 }
 
 .find-header-tab .nav-tabs .nav-item.show .nav-link,
-.find-header-tab .nav-tabs .nav-link.active, 
+.find-header-tab .nav-tabs .nav-link.active,
 .find-header-tab.nav-tabs {
     border: none;
 }
@@ -280,7 +300,9 @@
     border-radius: .25rem;
 }
 
+
 /* --- find-nearest tab css end --- */
+
 
 /* --- find-tab-content css end --- */
 
@@ -291,7 +313,7 @@
 }
 
 .find-tab-content .inner-form,
-.dc-form .inner-form{
+.dc-form .inner-form {
     background: rgb(255 255 255 / 53%);
     border-radius: 50px;
     padding: 15px;
@@ -310,21 +332,19 @@
     flex-grow: 1;
 }
 
-.find-tab-content .inner-form .input-field, 
+.find-tab-content .inner-form .input-field,
 .dc-form .inner-form .input-field {
     position: relative;
     border-right: 1px solid #ddd;
     background: #fff;
 }
 
-
-
-.find-tab-content .inner-form .search-input, 
-.dc-form  .inner-form .search-input, 
-.find-tab-content .inner-form .search-input , 
-.dc-form  .inner-form .search-input, 
 .find-tab-content .inner-form .search-input,
-.dc-form  .inner-form .custom-btn.blue-btn.search-input {
+.dc-form .inner-form .search-input,
+.find-tab-content .inner-form .search-input,
+.dc-form .inner-form .search-input,
+.find-tab-content .inner-form .search-input,
+.dc-form .inner-form .custom-btn.blue-btn.search-input {
     height: 48px;
     border-radius: 50px;
     border: 0;
@@ -338,8 +358,7 @@
 }
 
 .find-tab-content .inner-form .input-field button.custom-btn.blue-btn,
-.dc-form .inner-form .input-field button.custom-btn.blue-btn
- {
+.dc-form .inner-form .input-field button.custom-btn.blue-btn {
     margin: -7px;
     color: white;
     border: 1px solid var(--blue);
@@ -356,7 +375,7 @@
 }
 
 .find-tab-content .input-field.first-wrap,
-.dc-form  .input-field.first-wrap {
+.dc-form .input-field.first-wrap {
     border-radius: 50px 0px 0px 50px;
 }
 
@@ -366,12 +385,13 @@
 }
 
 .find-tab-content .input-field.third-wrap,
-.dc-form  .input-field.third-wrap {
+.dc-form .input-field.third-wrap {
     display: flex;
     align-items: center;
 }
 
-.doctor .section-top .section-heading, .doctor .section-top p {
+.doctor .section-top .section-heading,
+.doctor .section-top p {
     color: var(--white);
 }
 
@@ -399,6 +419,7 @@
     border-radius: 50px;
     border: 1px solid var(--green);
 }
+
 #triages .triage {
     position: relative;
     padding: 21px 0px;
@@ -412,6 +433,7 @@
     width: 50%;
     height: 60%;
 }
+
 
 /* hospital */
 
@@ -480,7 +502,9 @@
     width: auto;
 }
 
+
 /* --- find-tab-content tab css end --- */
+
 
 /* --- write-us  css start --- */
 
@@ -505,7 +529,9 @@
     border: none;
 }
 
+
 /* --- write-us css end --- */
+
 
 /* --- about-wha css start --- */
 
@@ -517,11 +543,15 @@
     padding: 50px 0px;
 }
 
+
 /* --- about-wha css end --- */
+
 
 /* --- our-blog css start --- */
 
+
 /* feature-area */
+
 .our-blog.bg {
     position: relative;
 }
@@ -543,6 +573,7 @@
 .our-blog .feature-wrapper p {
     color: #989898;
 }
+
 
 /* .our-blog .feature-area [class^="col-xl-3"] {
     padding: 0px 5px;
@@ -577,61 +608,80 @@
     font-size: 20px;
     padding: 5px 0px;
 }
+
 .our-blog .feature-wrapper .custom-btn {
     width: 180px;
     background: var(--blue);
     margin-top: 15px;
 }
-.our-blog .feature-wrapper .custom-btn i{
+
+.our-blog .feature-wrapper .custom-btn i {
     padding-left: 15px;
 }
+
 .our-blog .feature-img {
     display: inline-block;
 }
+
+
 /* --- our-blog css end --- */
 
+
 /* --- faq css start --- */
+
 .faq {
     padding: 50px 0px;
 }
+
 .faq i.fas.fa-chevron-down {
     position: absolute;
     right: 15px;
     top: 25px;
 }
-.faq button.btn.btn-link.btn-block.text-left.collapsed i.fas.fa-chevron-down{
+
+.faq button.btn.btn-link.btn-block.text-left.collapsed i.fas.fa-chevron-down {
     transform: rotate(180deg);
 }
+
 .faq button.btn.btn-link {
     font-weight: 600;
     font-size: 20px;
-    color:#263238;
+    color: #263238;
     text-decoration: none;
 }
- .faq button.btn.btn-link:hover,
- .faq button.btn.btn-link.active{
+
+.faq button.btn.btn-link:hover,
+.faq button.btn.btn-link.active {
     font-weight: 600;
     font-size: 20px;
     color: var(--green);
     text-decoration: none;
 }
-.faq button.btn.btn-link.collapsed{
-  
-    color:#263238;
-} 
 
-.faq button{
+.faq button.btn.btn-link.collapsed {
+    color: #263238;
+}
+
+.faq button {
     padding-left: 0px;
 }
+
 .faq .card-header {
     padding: 0.75rem 1.25rem;
-    background-color:transparent;
+    background-color: transparent;
     border-bottom: none;
 }
-.faq  .card-body {
+
+.faq .card-body {
     padding: 1.25rem;
     padding-top: 0px;
 }
+
+.faq .card-body p {
+    text-align: justify;
+}
+
+
 /* --- faqcss end --- */
 
 
@@ -644,34 +694,39 @@
 .gallery {
     position: relative;
 }
+
+
 /* .our-blog.bg {
     position: relative;
 } */
 
+
 /* clear fix */
+
 .gallery .grid:after {
     content: '';
     display: block;
     clear: both;
-  }
-  .gallery .grid .col-md-3{
-      padding-right: 0px;
-      padding-bottom: 15px;
-  }
-
-  .portfolio-area .button-group{
-      padding: 40px 0px 25px;
-  }
-  
-.portfolio-area  .grid .portfolio img
-{ 
-  width: 100%;
-  display: inline-block;
 }
-.portfolio-area button{
+
+.gallery .grid .col-md-3 {
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+
+.portfolio-area .button-group {
+    padding: 40px 0px 25px;
+}
+
+.portfolio-area .grid .portfolio img {
+    width: 100%;
+    display: inline-block;
+}
+
+.portfolio-area button {
     font-family: 'Open Sans', sans-serif;
     background-color: #F3F3F3;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 25px;
     margin-right: 30px;
     max-width: 180px;
@@ -680,36 +735,38 @@
     padding: 10px 20px;
     color: #263238;
 }
-.portfolio-area  .button.is-checked, .portfolio-area  .button.is-selected {
+
+.portfolio-area .button.is-checked,
+.portfolio-area .button.is-selected {
     background-color: #016939;
     color: white;
 }
-.gallery-m .mfp-figure figure {
 
+.gallery-m .mfp-figure figure {
     background: #fff;
     padding: 15px;
 }
+
 .gallery-m .mfp-title {
-  
     color: #100000;
     padding-left: 15px;
 }
+
 .gallery-m .mfp-image-holder .mfp-close {
     right: 10px;
     color: #100000;
 }
+
 .portfolio-area img.play-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 40px !important;
-  display: inline-block;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  margin-bottom: 0px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px !important;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 0px !important;
 }
-
-
 
 
 /*
@@ -717,8 +774,35 @@
   09. live-update Css
 ==========================================
 */
-.live-update{
+
+.live-update {
     padding: 70px 0px;
+}
+
+.live-update .all-header-tab .nav-link {
+    font-weight: 500;
+    font-size: 20px;
+    /* margin-right: 0px; */
+}
+
+.live-update .tab-pane .section-heading {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.live-update p.call-us {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--green);
+    text-align: initial;
+}
+
+.live-update p.call-us a {
+    color: var(--green);
+}
+
+.live-update-content p {
+    text-align: justify;
 }
 
 
@@ -727,59 +811,64 @@
   10. footer Css
 ==========================================
 */
+
 .footer-area {
-    background:var(--light-green);
-  }
-  
-  footer p,
-  footer a {
+    position: relative;
+    background: var(--light-green);
+}
+
+footer p,
+footer a {
     color: #263238;
     font-size: 14px;
     padding-bottom: 5px;
-  }
-  
- .footer-area .address-bd>div>a {
+}
+
+.footer-area .address-bd>div>a {
     flex-basis: 20px;
     margin-right: 5px;
-  }
- .footer-area .social-icon{
+}
+
+.footer-area .social-icon {
     display: flex;
-  }
- .footer-area .social-icon a {
+}
+
+.footer-area .social-icon a {
     background: #263238;
     margin-right: 10px;
     height: 30px;
     width: 30px;
     border-radius: 50%;
-      display: flex;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      padding-bottom: 0px;
-  }
-  
- .footer-area .social-icon a:last-child {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.footer-area .social-icon a:last-child {
     margin-right: 0px;
-  
-  }
-  
- .footer-area .g-1fr {
+}
+
+.footer-area .g-1fr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
-  }
-  
- footer .copyright {
-    background:var(--green);
+}
+
+footer .copyright {
+    background: var(--green);
     padding: 15px 0px;
-  }
-    
- footer .copyright p{
+}
+
+footer .copyright p {
     color: #fff;
-  }
+}
 
 
 /* --- doctor-details css start --- */
+
+
 /*
 ==========================================
   11. find-dc & hospital Css
@@ -789,63 +878,1277 @@
 .find-dc .dc-form .inner-form {
     background: rgb(46 56 136 / 53%);
 }
+
 .find-dc .pattern {
     right: 0px;
     top: inherit;
     bottom: 0px;
 }
+
+
 /* specialist Css */
+
 .specialist .single-service {
     padding: 0px;
     border-radius: 0px;
-    text-align:inherit;
+    text-align: inherit;
 }
+
 .specialist .specialist-content {
     padding: 15px;
 }
+
 
 /*
 ==========================================
   12. hospital-profile Css
 ==========================================
 */
+
 .specialist .single-service {
     padding: 0px;
     border-radius: 0px;
-    text-align:inherit;
+    text-align: inherit;
 }
+
 .specialist .specialist-content {
     padding: 15px;
 }
+
 .specialist .single-service .serivce-img {
     display: block;
 }
-.specialist .single-service .serivce-img img{
+
+.specialist .single-service .serivce-img img {
     width: 100%;
 }
+
+
 /* .specialist .single-service {
     padding: 20px 20px 30px;
 } */
+
+
 /*
 ==========================================
   13. hospital-profile Css
 ==========================================
 */
 
+.hospital-profile-wrapper .pattern {
+    right: 0;
+}
+
+.hospital-profile-wrapper .section-heading {
+    text-transform: capitalize;
+}
+
+.service-b-1 {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: var(--black);
+}
+
+.service-b-1:hover {
+    color: #016939;
+}
+
+.sb-1 {
+    background-color: #E5FAFB;
+}
+
+.sb-2 {
+    background-color: #EBFAF2;
+}
+
+.sb-3 {
+    background-color: #FDF3F5;
+}
+
+.sb-4 {
+    background-color: #FFF4E5;
+}
+
+.load-more-b .details-btn {
+    color: var(--black);
+}
+
+.load-more-b .details-btn:after {
+    background-color: var(--black);
+}
+
+.achievement ul {
+    list-style: decimal;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.achievement ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    padding-bottom: 2px;
+}
+
+.h-specialization .section-heading.heading-bar:before {
+    background: var(--black);
+}
+
+.bed-info .single-service:hover {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.bed-info .single-service .sub-heading {
+    color: #2E3888;
+    font-weight: 700;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+
 /* --- doctor-details css end --- */
 
-/* --- Doctor-details css start --- */
+
 /*
 ==========================================
-  11. footer Css
+  14. package Css
 ==========================================
 */
+
+.plan {
+    padding: 50px 0px;
+}
+
+.plan-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    height: 100%;
+}
+
+.plan-item {
+    position: relative;
+    border-radius: 8px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.plan-item .ultimated {
+    position: relative;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* min-height: 80vh; */
+}
+
+.plan-item .ultimated .ultimated-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+/* .plan-item .ultimated-2 {
+    padding: 15px;
+    min-height:35vh;
+    display: flex;
+    flex-direction: column;
+} */
+
+.plan-item .ultimated-2 {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.plan-item .ultimated-2 .ultimated-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.plan-item .get-btn,
+.plan-item .price-w {
+    margin-top: auto;
+}
+
+.plan-item.plan-item-bg-1 {
+    background-color: #FFFBF1;
+    border: 1px solid #FCB619;
+}
+
+.plan-item.plan-item-bg-2 {
+    background-color: #EBF9FF;
+    border: 1px solid #2AA7E2;
+}
+
+.plan-item.plan-item-bg-3 {
+    background-color: #F3FFF7;
+    border: 1px solid #7DBB41;
+}
+
+.plan-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.plan-item .ultimated-update-content.before-srarting-img>ul>li:before,
+.strategy .ultimated-update-content.before-srarting-img>ul>li:before {
+    content: url(../img/plan-checked.png);
+}
+
+.plan-item .ultimated-update-content.before-srarting-img>ul>li,
+.plan-item .complete-h li {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.plan-item .complete-h {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.plan-item .price-w .custom-btn {
+    width: 100%;
+    display: block;
+    font-size: 26px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.plan-item .ultimated-wrapper .custom-btn.price-btn-1 {
+    background: #FCB619;
+}
+
+.plan-item .ultimated-wrapper .custom-btn.price-btn-2 {
+    background: #2AA7E2;
+}
+
+.plan-item .ultimated-wrapper .custom-btn.price-btn-3 {
+    background: #7DBB41;
+}
+
+.plan-item.plan-item-bg-2 .ultimated-wrapper .get-btn .custom-btn,
+.plan-item.plan-item-bg-3 .ultimated-wrapper .get-btn .custom-btn {
+    background: transparent;
+    color: #2AA7E2;
+    padding: 0px;
+}
+
+.plan-item.plan-item-bg-3 .ultimated-wrapper .get-btn .custom-btn {
+    color: #7DBB41;
+}
+
+.plan-item .ultimated-2 .ultimated-wrapper h3.font-28 {
+    margin-bottom: 20px;
+}
+
+.plan .custom-title .section-heading {
+    color: #FCB619;
+}
+
+
+/* --- build css start --- */
+
+.build {
+    position: relative;
+}
+
+.build-inner {
+    position: relative;
+    /* margin-bottom: 50px; */
+    padding: 7rem 0px;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.build img.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px !important;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+.build-inner .abs-50 {
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+}
+
+.build-inner a.videos-icon img:nth-child(odd) {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+
+/* .abs-50 img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+  } */
+
+.build-inner:nth-child(odd) .abs-50 {
+    right: 0;
+}
+
+.build-inner.medical-guide.green-overly .col-md-6 {
+    margin-left: auto;
+}
+
+.medical-guide.green-overly .banner-left-content {
+    text-align: right;
+}
+
+.medical-guide.green-overly .banner-left-content p {
+    padding: 20px 0px 20px 25px;
+}
+
+.medical-guide.green-overly:after {
+    background-color: #CCE1FF;
+}
+
+.medical-guide.green-overly .section-heading.heading-bar {
+    color: #2E3888;
+}
+
+.medical-guide.green-overly .banner-content .custom-btn,
+.medical-guide.green-overly .section-heading.heading-bar:before {
+    background: #2E3888;
+    color: #fff;
+}
+
+
+/* --- build css end --- */
+
+
+/* --- strategy start --- */
+
+.strategy .before-srarting-img>ul>li {
+    margin: 8px 0px;
+}
+
+
+/* --- strategy end --- */
+
+
+/*
+==========================================
+  15. doctor-profile Css
+==========================================
+*/
+
+.doctor-profile .doctor-ratting-s {
+    position: absolute;
+    bottom: 20px;
+    left: 41%;
+    z-index: 2;
+}
+
+.doctor-profile .doctor-banner img {
+    position: relative;
+}
+
+.doctor-profile .doctor-banner.green-overly:after {
+    background-color: var(--black);
+    opacity: .58;
+    z-index: 1;
+}
+
+.doctor-profile .doctor-title .dr-description p {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.doctor-profile .doctor-title .dr-description p span {
+    font-weight: 600;
+}
+
+.doctor-profile .doctor-title .crd-round-img img {
+    width: 250px;
+    height: 250px;
+}
+
+.doctor-profile .schedule .schedule-time p span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.doctor-profile .schedule .schedule-time p span.drop-itm {
+    color: #1E73BE;
+}
+
+.doctor-profile .doctor-title .schedule .schedule-time p span.drop-itm i {
+    padding-right: 10px;
+}
+
+.doctor-profile .card-side .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem 1.25rem 0px 1.25rem;
+}
+
+.doctor-profile .appointments .appoint-now:last-child {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.doctor-profile .appointments .appoint-now:first-child {
+    grid-template-columns: 1fr 2fr;
+}
+
+.doctor-profile .sub-bar {
+    line-height: 45px;
+}
+
+.doctor-profile .doc-cham-shcedule {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.doctor-profile .doc-cham-shcedule .card-header {
+    background: #2E3888;
+}
+
+.doctor-profile .doc-cham-shcedule .details-btn {
+    font-size: 20px;
+}
+
+.doctor-profile .doc-cham-shcedule .view-less-b .details-btn {
+    color: var(--black);
+}
+
+.slider-dc {
+    padding: 50px 0px 100px;
+}
+
+.slider-dc .green-overly {
+    padding: 25px 15px;
+}
+
+.slider-dc .feature-items .feature-content {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+}
+
+.slider-dc .feature-items .feature-content p.quote .fa-quote-right {
+    margin-top: -2px;
+    color: var(--green);
+    padding-right: 8px;
+}
+
+.slider-dc .feature-items .feature-content:after {
+    content: "";
+    border-left: solid transparent 10px;
+    border-right: solid transparent 10px;
+    border-top: solid #ffffff 10px;
+    bottom: -7px;
+    height: 0;
+    left: 7%;
+    position: absolute;
+    width: 0;
+}
+
+.slider-dc .dc-pro-img {
+    padding: 15px 0px 0px;
+}
+
+.slider-dc .dc-pro-img img {
+    height: 58px;
+    width: 58px;
+    margin-right: 20px;
+    border: 1px solid #ddd;
+}
+
+.doctor-profile .pattern {
+    right: 0px;
+    top: inherit;
+    bottom: 0px;
+}
+
+.doctor-profile .appointment-wrapper {
+    margin-top: 0px;
+}
+
+.doctor-profile .doctor-title {
+    margin-top: -180px;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*
+==========================================
+  17. custom-package  Css
+==========================================
+*/
+
+.c-package-content .basket img {
+    width: 40px;
+    max-width: 40px;
+}
+
+.c-package-single .dolar-img {
+    display: inline-flex;
+}
+
+.c-package-single .dolar-img p {
+    padding-left: 10px;
+}
+
+.c-package-single {
+    height: 100%;
+    background: #fff;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 8px 1px #2121213b;
+    border-radius: 8px;
+}
+
+.c-package-d {
+    color: #000;
+    padding: 15px 0px;
+}
+
+.c-package-content {
+    padding-top: 15px;
+}
+
+.custom-package {
+    position: relative;
+}
+
+.custom-package .dc-form .inner-form .form-control.search-input {
+    background: url(../img/category-d.png) no-repeat calc(100% - 20px) !important;
+}
+
+.item-selector {
+    transform: rotate( 360deg);
+    -webkit-transform: rotate( 360deg);
+    -moz-transform: rotate( 360deg);
+    -ms-transform: rotate( 360deg);
+    -o-transform: rotate( 360deg);
+}
+
+.add-to-card .schedule .training {
+    font-size: 18px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-weight: 500;
+    color: #030303;
+}
+
+.add-to-card .card-header {
+    background-color: #016939;
+}
+
+.add-to-card .card-body {
+    background-color: #EBFEF1;
+    min-height: 350px;
+}
+
+.add-to-card {
+    width: 400px;
+}
+
+.add-to-card .card:nth-child(2) .card-header {
+    background-color: #609B7F;
+}
+
+.add-to-card .card:nth-child(2) .card-header h3 {
+    color: #000000;
+}
+
+.add-to-card .place-holder .flex-2,
+.add-to-card .place-holder .flex-1 {
+    padding: 10px 10px;
+}
+
+.add-to-card .place-holder .flex-2 {
+    background-color: #016939;
+}
+
+.add-to-card .place-holder .flex-1 {
+    background-color: #00532C
+}
+
+.add-to-card-wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    /* bottom: 0px; */
+    z-index: 1;
+}
+
+.add-to-card .card {
+    border: none;
+}
+
+.item-selector p input {
+    background: transparent;
+    display: inline-block;
+    width: 30px;
+}
+
+
+/*
+==========================================
+  18. compare Css
+==========================================
+*/
+
+.to-compare {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px 0px;
+}
+
+.content {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.content img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid var(--green);
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.content.bg-green {
+    color: #fff;
+}
+
+.compare .bg-blue.p-100 {
+    padding: 100px;
+}
+
+.select-t-s p.load-more-btn.font-20 {
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.select-t-s .load-more-btn:after,
+.select-t-s .load-more-btn:before {
+    background-color: #fff;
+}
+
+.compare-btn {
+    background-color: #8492FF;
+    color: #fff;
+    padding: 10px 35px;
+    font-weight: 600;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+
+.compare .select-t-s {
+    display: flex;
+    gap: 20px;
+}
+
+.compare-table .table {
+    width: 100%;
+    table-layout: auto;
+}
+
+.compare-table .table th {
+    background: #183887;
+    color: #fff;
+}
+
+.compare-table .table td,
+.compare-table table th {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+/*
+==========================================
+  18. footer Css
+==========================================
+*/
+
+.query {
+    color: #0089D9;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.query:first-letter {
+    text-transform: uppercase;
+}
+
+.model-wreapper .close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    z-index: 1;
+    opacity: 1;
+}
+
+
+/* .model-wreapper  form .form-control::placeholder{
+    background-color: #016939;
+} */
+
+.model-wreapper form .form-control {
+    font-size: 18px;
+    color: #495057;
+    background-color: var(--light-green);
+    border: none;
+    margin-bottom: 15px;
+}
+
+.model-wreapper p,
+.model-wreapper a {
+    font-size: 22px;
+    color: var(--black);
+}
+
+.model-wreappe button.btn.white-c {
+    font-size: 18px;
+    padding: 10px;
+    color: #fff;
+}
+
+.model-wreappe button.btn.white-c img {
+    padding-right: 8px;
+}
+
+.buy-n {
+    position: relative;
+    display: inline-block;
+    margin-top: -100px;
+}
+
+.buy-n img {
+    position: relative;
+    display: inline-block;
+}
+
+.buy-n a i {
+    position: absolute;
+    top: -16px;
+    right: -3px;
+    font-size: 18px;
+    border: 1px solid #f00;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    color: #f00;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 
 /* --- Doctor-details css end --- */
 
 
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Ubuntu', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
+/* blog */
 
+
+/*
+==========================================
+  details4  Css
+==========================================
+*/
+
+.blog-details .mast {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.blog-details .mast span {
+    padding-right: 15px;
+}
+
+.blog-details .about-bang-c .social-icon a {
+    color: #fff;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+
+.blog-details .about-bang-c .social-icon a:nth-child(2) {
+    background: #29C5F6;
+}
+
+.blog-details .about-bang-c .social-icon a:nth-child(3) {
+    background: #CA212A;
+}
+
+.blog-details .post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-details .activity-icons img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.blog-details .activity-icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.blog-details .post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.blog-details .post-profile-icon img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 30;
+    margin-right: 5px;
+}
+
+.blog-details .post-row a {
+    color: #9a9a9a;
+}
+
+.blog-details .activity-icons .activity-comment {
+    position: relative;
+    padding-left: 20px;
+}
+
+.blog-details .activity-icons .activity-comment img {
+    width: 40px;
+    display: inline-block;
+    margin-left: -15px;
+    margin-right: 0px;
+}
+
+.blog-details .post-profile-icon i {
+    color: #D2D2D2;
+    padding-right: 8px;
+}
+
+.blog-details .post-profile-icon i:last-child {
+    padding-right: 0px;
+}
+
+.blog-details .post-profile-icon i.star-2 {
+    color: #FDDC3C;
+}
+
+.blog-details .commen-box {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+
+/* .commen-box.com-f {
+    flex-direction: column;
+  } */
+
+.blog-details .comment-icons img {
+    width: 55px;
+    max-width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.blog-details .like-c a {
+    margin-right: 9px;
+}
+
+.blog-details .search-box {
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.blog-details .search-box label {
+    margin: 0px;
+    position: absolute;
+    right: 10px;
+    top: 13px;
+}
+
+.blog-details .search-box label img {
+    width: 25px;
+}
+
+.blog-details .location-box {
+    background: transparent;
+    /* width: 350px; */
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.blog-details .event-type p {
+    color: #000;
+    line-height: 25px;
+}
+
+.blog-details .price {
+    padding-bottom: 15px;
+}
+
+.blog-details .price p {
+    color: #000;
+    padding: 3px 0px;
+}
+
+.blog-details .ratting i.star-2 {
+    color: #FDDC3C;
+    padding-right: 5px;
+}
+
+.blog-details .about-bang-c .social-icon {
+    display: flex;
+}
+
+.blog-details .social-icon a {
+    background: #000C63;
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.blog-details p {
+    text-align: justify;
+}
+
+.title-widget-sidebar {
+    font-size: 25px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+
+/*recent-post-col*/
+
+.widget-sidebar {
+    background-color: #fff;
+    padding: 0px 20px 0px;
+}
+
+.widget-sidebar .title-widget-sidebar {
+    border-bottom: 2px solid #e5ebef;
+    margin-top: 30px;
+}
+
+.widget-sidebar .title-widget-sidebar:after {
+    border-bottom: 2px solid #f1c40f;
+    width: 150px;
+    display: block;
+    position: absolute;
+    content: '';
+    padding-bottom: 10px;
+}
+
+.widget-sidebar .recent-post {
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+
+.widget-sidebar .post-img img {
+    transition: 0.5s;
+    width: 100%;
+    /* height: 70px; */
+}
+
+.widget-sidebar .post-img {
+    flex-basis: 250px;
+    margin-right: 15px;
+}
+
+.widget-sidebar .recent-post a {
+    text-decoration: none;
+    color: #34495E;
+    transition: 0.5s;
+}
+
+.widget-sidebar .recent-post a:hover {
+    color: #F39C12;
+}
+
+.widget-sidebar .recent-post p small {
+    font-size: 16px;
+}
+
+.widget-sidebar .recent-post p small i {
+    padding-right: 8px;
+}
+
+.widget-sidebar .recent-post h5 {
+    margin-bottom: 7px;
+    font-size: 17px;
+}
+
+.widget .form-control {
+    line-height: 55px;
+    height: 45px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.widget input#submit {
+    width: 180px;
+}
+
+.professional-doctors-area {
+    background-image: url(../img/doctors-bg-1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    overflow: hidden
+}
+
+.professional-doctors-area .owl-carousel {
+    display: inline-block;
+    width: 100%;
+    z-index: 1;
+}
+
+.professional-doctors-area .section-title h2 {
+    margin-bottom: 0;
+    font-size: 35px;
+    line-height: 1.4;
+    color: #07003b;
+}
+
+.professional-doctors-area .section-title {
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto 45px;
+}
+
+.professional-doctors-card {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    border-radius: 10px;
+    margin-bottom: 25px
+}
+
+.professional-doctors-card .doctors-image {
+    text-align: center;
+    background: linear-gradient(to right, #d6f9f9, #daf5f5, #def2f2, #e2eeee, #e5eaea);
+    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    position: relative
+}
+
+.professional-doctors-card .doctors-image a img {
+    display: inline-block
+}
+
+.professional-doctors-card .doctors-image .social {
+    padding-left: 0;
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+    margin-bottom: 0
+}
+
+.professional-doctors-card .doctors-image .social li {
+    display: inline-block;
+    -webkit-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+    opacity: 0;
+    visibility: hidden;
+    margin: 0 2px
+}
+
+.professional-doctors-card:hover .doctors-image .social li {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible
+}
+
+.professional-doctors-card .doctors-image .social li a i {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+    color: #169fed;
+    border-radius: 50px;
+    -webkit-transition: .6s;
+    transition: .6s
+}
+
+.professional-doctors-card .doctors-image .social li a i:hover {
+    color: #fff;
+    background-color: #169fed;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+.professional-doctors-card .doctors-image .social li:nth-child(1) {
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s
+}
+
+.professional-doctors-card .doctors-image .social li:nth-child(2) {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s
+}
+
+.professional-doctors-card .doctors-image .social li:nth-child(3) {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s
+}
+
+.professional-doctors-card .doctors-image .social li:nth-child(4) {
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s
+}
+
+.professional-doctors-card .doctors-content {
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    padding: 30px 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px
+}
+
+.professional-doctors-card .doctors-content span {
+    display: inline-block;
+    margin-bottom: 12px
+}
+
+.professional-doctors-card .doctors-content h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600
+}
+
+.professional-doctors-card .doctors-content h3 a {
+    color: #07003b;
+}
+
+.professional-doctors-card .doctors-content h3 a:hover {
+    color: #169fed;
+}
+
+.professional-doctors-slides.owl-theme .owl-dots .owl-dot {
+    -webkit-transition: .6s;
+    transition: .6s
+}
+
+.professional-doctors-slides.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    box-shadow: 0 0 1.25rem rgba(108, 118, 134, .1);
+    -webkit-transition: .6s;
+    transition: .6s;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: none;
+}
+
+.professional-doctors-slides.owl-carousel .owl-dots .owl-dot:hover span,
+.professional-doctors-slides.owl-carousel .owl-dots .owl-dot.active span {
+    background-color: #169fed !important;
+    width: 30px
+}
+
+.professional-doctors-slides.owl-carousel .owl-dots .owl-dot:hover span::before,
+.professional-doctors-slides.owl-carousel .owl-dots .owl-dot.active span::before {
+    opacity: 1;
+    visibility: visible
+}
+
+.professional-doctors-slides.owl-carousel .owl-nav.disabled+.owl-dots {
+    margin-top: 0
+}

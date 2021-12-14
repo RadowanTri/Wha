@@ -11,7 +11,8 @@
         margin-top: 20px;
     }
     .appointment-wrapper button.custom-btn,
-    .write-form form button.custom-btn { 
+    .write-form form button.custom-btn,
+    .service-b-1{ 
         max-width: 190px;
         width: 190px;
         height: 44px;
@@ -28,10 +29,22 @@
         border-left: 1px solid var(--green);
         padding-left: 20px;
     }
+    .c-package-single button.custom-btn {
+        width: 150px;
+        padding: 6px 25px;
+      }
     
 }
 /* Laptop */
 @media (min-width: 992px) and (max-width:1368px) {
+    /* .plan-item start */
+    .plan-item .sub-title {
+        font-size: 21px;
+    }
+    .plan-item .section-heading {
+        font-size: 25px;
+    }
+
 
 }
 
@@ -78,6 +91,45 @@
     }
     /* find-near css end */
 
+    /*  plan-itemcss start */
+     .plan-item>img {
+        height: 150px;
+    }
+    .plan-item .sub-title {
+        font-size: 21px;
+    }
+    .plan-item .section-heading {
+        font-size: 25px;
+    }
+    .plan-grid{
+        grid-template-columns: repeat(2, 1fr);
+ 
+     }
+     
+
+    /*  plan-item css end */
+
+    /* doctor-profile css start */
+    .doctor-profile .doctor-title .crd-round-img img {
+        width: 125px;
+        height: 125px;
+    }
+    .doctor-profile .doctor-title {
+        margin-top: 0px;
+    }
+    .doctor-profile .schedule .schedule-time p span {
+        font-size: 16px;   
+    }
+    .doctor-profile .doc-cham-shcedule {
+        flex-direction: column;
+    }
+    /*  doctor-profile css end */
+
+     /* custom-package css start */
+     .custom-package .dc-form .input-field.first-wrap {
+        width: 100%;
+    }
+    /*  custom-package css end */
      /*  our-services css start */
     /*  our-services css end */
 }
@@ -143,6 +195,10 @@
         padding: 8px 8px 8px 8px;
         font-size: 10px;
     }
+    .find-tab-content .inner-form,
+    .dc-form .inner-form {
+       padding: 8px;
+   }
     .find-header-tab .nav-link {
         font-size: 12px;
         padding: 0.5rem 5px;
@@ -221,14 +277,88 @@
         padding: 5px 15px;
     }
     /* gallery css end */
+        /* pakage Css start */
+        .plan-grid{
+            grid-template-columns: repeat(1, 1fr);
+     
+         }
+         .plan-item .ultimated,
+         .plan-item .ultimated-2 {
+             min-height: auto;
+         }
+         .plan-item .ultimated-wrapper .get-btn .custom-btn {
+             font-size: 20px;
+         }
+         .plan-item .ultimated-update-content.before-srarting-img>ul>li, .plan-item .complete-h li {
+             font-size: 16px;
+             font-weight: 600;
+         }
+         .plan-item>img {
+             height: 150px;
+         }
+         .plan-item .sub-title {
+             font-size: 21px;
+         }
+         .plan-item .section-heading {
+             font-size: 25px;
+         }
+         .build-inner .abs-50 {
+            position: relative;
+            width: 100%;
+        }
+        .build-inner {
+            padding: 3rem 0px;
+            min-height: auto;
+            display: block;
+            margin-bottom: 50px;
+        }
+        .build-inner .banner-left-content {
+            padding: 35px 0px;
+        }
 
-    /*  our-services css start */
-    /*  our-services css end */
+     
+         
+         /* pakage Css end */
+
+    /*  doctor-profile css start */
+    .doctor-profile .doctor-title {
+        margin-top: 0px;
+    }
+    .doctor-profile .appointment-wrapper {
+        margin-top: 30px;
+    }
+    .slider-dc {
+        padding: 35px 0px 30px;
+    }
+
+    /*  doctor-profile css end */
+
+    /*  custom-package css start */
+    .custom-package .dc-form .input-field.first-wrap {
+        width: 100%;
+    }
+    /*  custom-package css end */
+
+    .compare .to-compare {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .compare .select-t-s {
+        display:block
+    }
+    .compare .bg-blue.p-100{
+        padding: 50px;
+    }
+    .compare .bg-blue .pt-100 {
+        padding-top: 50px;
+    }
 
 }
 
 @media (min-width: 320px) and (max-width:575px) {
     /* :default start */
+    .grid-5,.grid-4{
+        grid-template-columns: repeat(2, 1fr);
+      }
     .home-wha p{
         font-size: 10px;
     }
@@ -240,9 +370,21 @@
         font-weight: 400;
         font-size: 11px;
     }
+    p {
+        font-size: 14px;
+    }
+    .opens-30 {
+        font-size: 20px;
+    }
     /* :default end */
     
     /* --- header css start --- */
+    .header-nav .custom-btn {
+        margin-bottom: 10px;
+        padding: 8px 20px;
+        font-weight: 400;
+        font-size: 11px;
+    }
     .header-nav .ftco-navbar-light {
         padding: 5px 0px;
     }
@@ -330,13 +472,18 @@
         display: none;
     }
 
-
-    
     /*  nearest-dhs css end */
 
-    /* hospital-profile Css start */
+
+
+
+    /* doc-profile Css start */
+    .doctor-profile .doc-cham-shcedule {
+        display: block
+    }
+    /* doc-profile Css end */
+
     
-    /* hospital-profile Css end */
     
 }
     
